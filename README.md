@@ -4,6 +4,13 @@
 
 👉 Checking here for our paper: [arXiv](https://arxiv.org/pdf/2509.24526)
 
+![FID vs. training time for vanilla ECD and CMT (ours) on ImageNet 512×512](https://github.com/sony/cmt/blob/main/assets/fig-cd-pics-mark.jpg)
+
+
+
+
+## General Instructions:
+
 The **main branch** is for unconditional **CIFAR-10**, **FFHQ**, and **AFHQv2**.
 
 🔔 We will release codes and checkpoints for ImageNet 256x256 and 512x512 soon.
@@ -101,6 +108,7 @@ bash eval_ecm_ffhq.sh <NGPUs> <PORT> --resume <CKPT_PATH>
 ## ImageNet 64x64, 256x256, and 512x512
 
 Please refer to other branches for the three resolutions of ImageNet.
+
 
 
 
