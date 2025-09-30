@@ -3,6 +3,7 @@
 The code follows [ECT](https://github.com/locuslab/ect/)'s format. The dependencies are the same as ECT. Before training, please put the dataset zip file under the datasets folder.
 
 The main branch is for unconditional CIFAR10, FFHQ, and AFHQv2.
+🔔 We will release codes and checkpoints for ImageNet 256x256 and 512x512 soon.
 
 ## CIFAR10
 
@@ -95,6 +96,7 @@ bash eval_ecm_ffhq.sh <NGPUs> <PORT> --resume <CKPT_PATH>
 ## ImageNet 64x64, 256x256, and 512x512
 
 Please refer to other branches for the three resolutions of ImageNet.
+
 
 
 
