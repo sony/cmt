@@ -1,12 +1,14 @@
 # Consistency Mid-Training (CMT)
 
-## **TL;DR: Consistency Mid-Training (CMT) provides a stable, trajectory-consistent initializer for flow map models, enabling state-of-the-art few-step FIDs with up to 98% less compute than prior methods.**
+### **TL;DR: Consistency Mid-Training (CMT) provides a stable, trajectory-consistent initializer for flow map models, enabling state-of-the-art few-step FIDs with up to 98% less compute than prior methods.**
 
-The code follows [ECT](https://github.com/locuslab/ect/)'s format. The dependencies are the same as ECT. Before training, please put the dataset zip file under the datasets folder.
+- [arXiv](https://arxiv.org/pdf/2509.24526)
 
 The **main branch** is for unconditional **CIFAR-10**, **FFHQ**, and **AFHQv2**.
 
 🔔 We will release codes and checkpoints for ImageNet 256x256 and 512x512 soon.
+
+Our code structure follows [ECT](https://github.com/locuslab/ect/)'s format. The dependencies are the same as ECT. Before training, please put the dataset zip file under the datasets folder.
 
 ## CIFAR-10
 
@@ -99,6 +101,7 @@ bash eval_ecm_ffhq.sh <NGPUs> <PORT> --resume <CKPT_PATH>
 ## ImageNet 64x64, 256x256, and 512x512
 
 Please refer to other branches for the three resolutions of ImageNet.
+
 
 
 
