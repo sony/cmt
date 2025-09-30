@@ -1,18 +1,18 @@
 # Consistency Mid-Training (CMT)
 
-**TL;DR: Consistency Mid-Training (CMT) provides a stable, trajectory-consistent initializer for flow map models, enabling state-of-the-art few-step FIDs with up to 98% less compute than prior methods.**
+## **TL;DR: Consistency Mid-Training (CMT) provides a stable, trajectory-consistent initializer for flow map models, enabling state-of-the-art few-step FIDs with up to 98% less compute than prior methods.**
 
 The code follows [ECT](https://github.com/locuslab/ect/)'s format. The dependencies are the same as ECT. Before training, please put the dataset zip file under the datasets folder.
 
-The **main branch** is for unconditional **CIFAR10**, **FFHQ**, and **AFHQv2**.
+The **main branch** is for unconditional **CIFAR-10**, **FFHQ**, and **AFHQv2**.
 
 🔔 We will release codes and checkpoints for ImageNet 256x256 and 512x512 soon.
 
-## CIFAR10
+## CIFAR-10
 
-### CIFAR10 Dataset
+### CIFAR-10 Dataset
 
-Download the dataset zip from Google Drive and put it under the datasets folder, i.e., datasets/cifar10-32x32.zip. Otherwise, one can obtain the dataset by following [EDM's Preparing Dataset](https://github.com/NVlabs/edm#preparing-datasets) section.
+Download the dataset zip from Google Drive and put it under the datasets folder, i.e., datasets/CIFAR-10-32x32.zip. Otherwise, one can obtain the dataset by following [EDM's Preparing Dataset](https://github.com/NVlabs/edm#preparing-datasets) section.
 
 https://drive.google.com/drive/folders/1EPl9fc8XOgc135x8l0EGwTsHLf0ip_pQ?usp=drive_link.
 
@@ -99,6 +99,7 @@ bash eval_ecm_ffhq.sh <NGPUs> <PORT> --resume <CKPT_PATH>
 ## ImageNet 64x64, 256x256, and 512x512
 
 Please refer to other branches for the three resolutions of ImageNet.
+
 
 
 
