@@ -1,6 +1,6 @@
 # Consistency Mid-Training (CMT)
 
-#### **TL;DR: CMT introduces a mid-training stage between (diffusion) pre-training and flow map post-training, cutting training costs dramatically: achieving SOTA 2-step FIDs while using up to 98% less data and GPU time than Consistency Models, and about 50% less total training time than Mean Flow.**
+#### **TL;DR:** CMT introduces a *mid-training stage* between (diffusion) pre-training and flow map post-training, cutting training costs dramatically: achieving *SOTA 2-step FIDs* while using up to *98% less data and GPU time than Consistency Models*, and about *50% less total training time than Mean Flow*.
 
 ### 👉 Checking here for our paper: [arXiv](https://arxiv.org/pdf/2509.24526)
 
@@ -110,6 +110,7 @@ bash eval_ecm_ffhq.sh <NGPUs> <PORT> --resume <CKPT_PATH>
 ## ImageNet 64x64, 256x256, and 512x512
 
 Please refer to other branches for the three resolutions of ImageNet.
+
 
 
 
